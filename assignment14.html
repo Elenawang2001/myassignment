@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="Css/assignment14.css">
+</head>
+<body>
+    <header>
+        <nav id="box" class="navbar navbar-expand-lg  fixed-top">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="Image/logo_eskala_2.png" height="50px" alt=""></a>
+                <button class="navbar-toggler" data-bs-target="#mymenu" data-bs-toggle="collapse">Menu
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mymenu">
+                    <ul class="navbar-nav pl-2">
+                        <li class="nav-item"><a href="#" class="nav-link" ><i class="fa-solid fa-house-chimney" id="home"></i>Home</a></li>
+                        <li class="nav-item"><a href="#"  class="nav-link"><i class="fa-solid fa-circle-exclamation"></i>About</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#"  class="nav-link dropdown-toggle" id="acommodation" data-bs-toggle="dropdown"><i class="fa-solid fa-star"></i>Acommodation</a>
+                            <ul class="dropdown-menu bg-success" aria-labelledby="acommodation" >
+                                <li><a href="" class="dropdown-item" >Gold Villa </a></li>
+                                <li><a href="" class="dropdown-item">Silver Villa</a></li>
+                                <li><a href="" class="dropdown-item">Gold Deluxe(Sea View)</a></li>
+                                <li><a href="" class="dropdown-item">Silver Deluxe(Garden View)</a></li>
+                                <li><a href="" class="dropdown-item">Gold Delulxe(Sea Side)</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#"  class="nav-link dropdown-toggle" id="dining" data-bs-toggle="dropdown"><i class="fa-solid fa-circle-radiation"></i>Dining</a>
+                                <ul class="dropdown-menu bg-success" aria-labelledby="dining">
+                                    <li><a href="" class="dropdown-item">Brizo Restaurant & Bar</a></li>
+                                    <li><a href="" class="dropdown-item">Brizo Pool Bar</a></li>
+                                    <li><a href="" class="dropdown-item">Brizo Beach Bar</a></li>
+                                    <li><a href="" class="dropdown-item">The Village House</a></li>
+                                </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#"  class="nav-link dropdown-toggle" id="experience" data-bs-toggle="dropdown"><i class="fa-solid fa-clock"></i>Experience</a>
+                            <ul class="dropdown-menu bg-success" aria-labelledby="experience">
+                                <li><a href="" class="dropdown-item">Spa</a></li>
+                                <li><a href="" class="dropdown-item">Diving Center</a></li>
+                                <li><a href="" class="dropdown-item">Pool & Baby Pool</a></li>
+                                <li><a href="" class="dropdown-item">Organic Garden</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#"  class="nav-link dropdown-toggle" id="wedding" data-bs-toggle="dropdown"><i class="fa-solid fa-face-grin-hearts"></i>Wedding</a>
+                            <ul class="dropdown-menu bg-success" aria-labelledby="wedding">
+                                <li><a href="" class="dropdown-item">Wedding Brochure</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#"  class="nav-link dropdown-toggle" id="honeymoon" data-bs-toggle="dropdown"><i class="fa-solid fa-heart"></i>Honeymoon</a>
+                            <ul class="dropdown-menu bg-success" aria-labelledby="honeymoon">
+                                <li><a href="" class="dropdown-item">Diamond Experience</a></li>
+                                <li><a href="" class="dropdown-item">Platinum Experience</a></li>
+                                <li><a href="" class="dropdown-item">Gold Experience</a></li>
+                                <li><a href="" class="dropdown-item">Silver Experience</a></li>
+                                <li><a href="" class="dropdown-item">Bronze Experience</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#"  class="nav-link"><i class="fa-solid fa-photo-film"></i>Gallery</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#"  class="nav-link dropdown-toggle" id="destination" data-bs-toggle="dropdown"><i class="fa-solid fa-earth-americas"></i>Destination</a>
+                            <ul class="dropdown-menu bg-success" aria-labelledby="destination">
+                                <li><a href="" class="dropdown-item">Ngwe Saung</a></li>
+                                <li><a href="" class="dropdown-item">Lover Island</a></li>
+                                <li><a href="" class="dropdown-item">Bird Island</a></li>
+                                <li><a href="" class="dropdown-item">Fisherman Village</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="#"  class="nav-link"><i class="fa-solid fa-award"></i>Award</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#"  class="nav-link dropdown-toggle" id="covid" data-bs-toggle="dropdown"><i class="fa-solid fa-gear"></i>Covid-19</a>
+                            <ul class="dropdown-menu bg-success" aria-labelledby="covid">
+                                <li><a href="" class="dropdown-item">Precaution Measurement</a></li>
+                                <li><a href="" class="dropdown-item">Covid SOP</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+        </nav>
+        
+        <div class="carousel slide" data-bs-ride="carousel" id="myslide">
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#myslide" data-bs-slide-to="0"></button>
+                <button data-bs-target="#myslide" data-bs-slide-to="1"></button>
+                <button data-bs-target="#myslide" data-bs-slide-to="2"></button>
+                <button data-bs-target="#myslide" data-bs-slide-to="3"></button>
+                <button data-bs-target="#myslide" data-bs-slide-to="4"></button>
+                </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Image/Mainslider0.jpg" class="w-100% d-block" height="800px" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/MainPhotoSecond.jpg" class="w-100% d-block" height="800px" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/MainPhotoThird.jpg" class="w-100% d-block" height="800px" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/MainPhotoFourth.jpg" class="w-100% d-block" height="800px" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="Image/MainPhotoFifth.jpg" class="w-100% d-block" height="800px" alt="">
+                </div>
+                
+            </div>
+        </div>
+    
+        <button class="carousel-control-prev" data-bs-target="#myslide" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#myslide" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <section id="con">
+       <div class="container">
+            <div class="row m-5">
+            <div class="col-md-4"> 
+                <img src="Image/ESK-hotel-6.png" width="100%" height="250px" alt="">
+            </div>
+            <div class="col-md-4">
+                <img src="Image/May-Beach-Escape-05-size-cahnge-e1651554580869.jpg" width="100%" height="250px" alt="">
+            </div>
+            <div class="col-md-4">
+                <img src="Image/Friends-05-crop.jpg" width="100%" height="250px" alt="">
+            </div>
+            </div>
+            <div class="row m-5">
+            <div class="col-md-4"> 
+                <img src="Image/Romantic-Dinner-2-1.jpg" width="100%" height="250px" alt="">
+            </div>
+            <div class="col-md-4">
+                <img src="Image/Hassel-Free-Final.jpg" width="100%" height="250px" alt="">
+            </div>
+            <div class="col-md-4">
+                <img src="Image/Land-to-beach-website.jpg" width="100%" height="250px" alt="">
+            </div>
+            <h1>LATEST NEWS</h1>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-header"></div>
+                
+                        <img src="Image/viber_image_2020-01-08_14-15-37.jpg" width="100%" height="200px" alt="">
+            
+                        <div class="card-body">
+                            <h4 class="card-title">Luxury Beach Wedding @ Eskala Hotals & Res...</h4>
+                            <p class="card-text">Eskala is a premier beach luxury destination for all things...</p>
+                            <a href="" class="btn btn-danger">Read More</a>
+                        </div>
+                        <div class="card-footer">
+
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header"></div>
+                
+                    <img src="Image/Seafood.jpg" width="100%" height="200px" alt="">
+            
+                    <div class="card-body">
+                        <h4 class="card-title">SEAFOOD BBQ Buffet every Saturday @ Eskala !</h4>
+                        <p class="card-text">Guests will be able to enjoy the seafood bbq buffet...</p>
+                        <a href="" class="btn btn-danger">Read More</a>
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header"></div>
+                
+                    <img src="Image/kueen2.png" width="100%" height="200px" alt="">
+            
+                    <div class="card-body">
+                        <h4 class="card-title">Read the newest reviews of our Hotels from Trav...</h4>
+                        <p class="card-text">ESKALA: Your family trip destination ! We are offering tailor made...</p>
+                        <a href="" class="btn btn-danger">Read More</a>
+                    </div>
+                    <div class="card-footer">
+
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="row m-5">
+            <div class="col-md-4">
+                <div class="card">
+                <div class="header"></div>
+                <div class="body m-3">
+                    <h4 class="float-left">Accomodatin</h4>
+                    <i class="fa-solid fa-bed float-right"></i>
+                    <p class="card-text mt-3">Featuring 60 rooms, in four types contemplating your dream stay. Presenting you with spectacular sights of the million blue miles that widen out our villas and rooms are eyes unto the breathtaking Bay.</p>
+                </div>
+                <div class="footer bg-secondary mt-3"><a href="" class="btn btn-secondary">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="header"></div>
+                    <div class="body m-3">
+                        <h4 class="float-left">World Class Service</h4>
+                        <i class="fa-solid fa-bed float-right"></i><br>
+                        <p class="card-text mt-3">Each room is equipped with full amenities, featuring from stunning view balcony, air conditioning, mini bar, LCD television with satellite connection and DVD player, and many more information and more..</p>
+                    </div>
+                    <div class="footer bg-secondary mt-3"><a href="" class="btn btn-secondary">Read More</a></div>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div class="card ">
+                    <div class="header"></div>
+                    <div class="body m-3">
+                        <h4 class="card-title">Award Winning</h4>
+                            <i class="fa-solid fa-bed"></i>
+                        <p class="card-text mt-3">We are the multiple awards winner including World Travel award 2018’s Myanmar leading Resorts ! Experience our impeccable services at world class standard while savoring the unspoiled beauty of the nature !
+                            </p>
+                    </div>
+                    <div class="footer bg-secondary mt-3"><a href="" class="btn btn-secondary">Read More</a></div>
+                </div>
+            </div>
+            </div>
+            <div class="row m-5">
+                
+                <div class="col-md-6 mb-2"><img src="Image/trip7.png" width="100%" height="120px" alt=""></div>
+                <div class="col-md-6 mb-2"><img src="Image/trip7.png" width="100%" height="120px" alt=""></div>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>ABOUT</h3>
+                    <p>Eskala Hotals & Resorts Ngwe Saung is the premier beachfront destination in Myanmar, offering stylish rooms and villas with charming ocean views.</p>
+                    <button class="b1">Contactus</button>
+                </div>
+                <div class="col-md-4">
+                    <h3>CONTACT INFO</h3>
+                    <p>Ngwe Saung Beach, Pathein, Ayeyarwaddy Division, Myanmar.
+                        <br><i class="fa-solid fa-phone"></i>+95 42 40341 , 42 40343
+                        <br><i class="fa-solid fa-phone"></i>+95 255111491 , 255111490
+                        <br> Eskala News Room</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>HEAD OFFICE</h3>
+                    <p>Ahlone Tower, Strand Road, River View Garden Housing, Ahlone Township, Yangon, Myanmar.
+                        <br><i class="fa-solid fa-phone"></i>+95 9255114440 , 
+                        <br><i class="fa-solid fa-phone"></i>+95 997 783 33 35
+                        <br><i class="fa-solid fa-envelope"></i><a href="http://gmail.com"> sales@youreskala.com</p></a>
+                    
+                    <div class="row"> 
+                        <div class="col-2"><a href="https://www.facebook.com/youreskala/?hc_ref=SEARCH&fref=nf"><i class="fa-brands fa-facebook-square h-50px"></i></a></div>
+                        <div class="col-2"><a href="https://twitter.com/eskalahotel"><i class="fa-brands fa-twitter-square"></i></a></div>
+                        <div class="col-2"><a href="https://www.instagram.com/accounts/login/?next=/eskalahotelsandresorts/"><i class="fa-brands fa-instagram-square"></i></a></div>                        
+                        <div class="col-2"><a href="https://www.youtube.com/channel/UC4YqeWsYRxNwYA8Vaww6PcA"><i class="fa-brands fa-youtube"></i></a></div>
+                        <div class="col-2"><a href="https://www.pinterest.com.au/eskalahotelsandresorts/"><i class="fa-brands fa-pinterest"></i></a></div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+           
+        </div>
+        <div class="container">
+            <div class="row m-3">
+                <div class="col-2"><img src="Image/travelwinner2020.png" width="100%" height="100px" alt=""></div>
+                <div class="col-2"><img src="Image/travelwinner2021.png" width="100%" height="100px" alt=""></div>
+                <div class="col-2"><img src="Image/travelwinner2021.png" width="100%" height="100px" alt=""></div>
+                <div class="col-2"><img src="Image/travelwinner2021.png" width="100%" height="100px" alt=""></div>
+                <div class="col-2"><img src="Image/winner.jpg" width="100%" height="100px" alt=""></div>
+                <div class="col-2"><img src="Image/Trip advisor.jpg" width="100%" height="100px" alt=""></div>
+            </div>
+        </div>
+        <div class="row bg-secondary">
+            <div class="col-12 pt-4 text-center">Copyright 2018 Eskala Hotal & Resorts. Developed by HostMyanmar</div>
+        </div>
+    </footer>
+    <script src="jss/jss/bootstrap.bundle.js"></script>
+    <script src="font/fontawesome/js/all.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+img{
+    width: 100%;
+    
+}
+#box{
+    opacity: 0.7;
+    background-color: chocolate;
+    
+}
+#box1{
+    padding: 0px;
+}
+#box a{
+    color: rgb(229, 229, 238);
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: rgb(58, 221, 37);
+}
+#con{
+    background-color: khaki;
+    
+    margin-top: 0px;
+}
+h1{
+    color: coral;
+    text-align: center;
+}
+
+h4{
+    float: left;
+}
+button{
+    background-color: orangered;
+}

@@ -1,0 +1,7 @@
+body{
+    background-color: chartreuse;
+}
+.container-fluid{
+    width: 100%;
+    height: 700px;
+}
