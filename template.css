@@ -1,0 +1,71 @@
+
+.bigbox{
+    position: relative;
+    justify-content: center !important;
+}
+.image{
+    width: 100%;
+    height: 550px;
+    background: beige url(../Image/course-1.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.phara{
+    width: 30%;
+    background-color: black;
+    text-align: center;
+    opacity: 0.8;
+    color:green;
+    position: absolute;
+    left:30%;
+    top: 20%;
+    z-index: 3;
+}
+h2{
+    color: darkgoldenrod;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.box{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+} 
+.box{
+    margin-top: -50px;
+    height: auto;
+    color: chocolate;
+}
+.box1{
+    width: 30%;
+    margin: 10px;
+    padding: 4px;
+    background-color: rgb(184, 223, 224);
+}
+.button{
+    justify-content: center !important;
+    text-align: center;
+    align-items: center;
+}
+.icon{
+    size: 5px;
+}
+.img{
+    position: relative;
+    z-index: 2;
+}
+.learn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    z-index: 4;
+}
